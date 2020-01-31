@@ -20,13 +20,15 @@ public class Asignare {
 /*afiseaza valoarea 4.0
 *se incrementeaza inainte si dupa se afiseaza,adica d=3.95.
 *dar 3.95<4 si atunci d=2.95/3.95 este mai mic decat 4 
-*astfel se duce pe a 2-a varianta fiind rezultatul i=4 
+*astfel se duce pe a 2-a varianta fiind rezultatul i=4.0
 */
 		    	   
 //TEMA 4
 		    		int suma = 0;
-		    		for(int i1 = 1; i1 <10; i1++){
-		    		        suma += suma + i1;
+		    		for(int i1 = 1; i1 < 10; i1++){
+		    			System.out.println(i1+" "+suma);
+		    		        suma += suma + i1;//suma = suma + suma + i1
+		    		    System.out.println("Este egal cu:"+i1+" "+suma);
 		    		}
 		    		System.out.println("Suma este: " +suma);
 //suma este: 1013
@@ -50,5 +52,33 @@ public class Asignare {
 		    			System.out.println("Vineri");
 		    			break;
 		    		}
+//TEMA 5
+		    		int p=1;
+		    		for (int j=2; j<=13; j++) {
+		    			p = p*j;
+		    			System.out.println("P=" +p);
+		    		}
+//TEMA 6
+		    		int x=2, y=4, z=8;
+		    		int minim=0;
+		    		if (x<y && x<z) {
+		    			minim=x;
+		    		}		    
+		    		if (y<x && y<z) {
+		    			minim=y;
+		    		}
+		    		if (z<x && z<y) {
+		    			minim =z;
+		    		}
+		    		System.out.println("Minim:" +minim);
+}
+//TEMA 7
+	                int number = 6;{
+	                if (number %2 == 0) {
+	                	System.out.println("Numarul " + number + "este par");
+	                }
+	                else {
+	                		System.out.println("Numarul " + number + "este impar");
+	                }
 }
 }

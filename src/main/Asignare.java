@@ -52,12 +52,14 @@ public class Asignare {
 		    			System.out.println("Vineri");
 		    			break;
 		    		}
+		    		
 //TEMA 5
 		    		int p=1;
-		    		for (int j=2; j<=13; j++) {
+		    		for (int j=2; j<13; j++) {
 		    			p = p*j;
 		    			System.out.println("P=" +p);
 		    		}
+
 //TEMA 6
 		    		int x=2, y=4, z=8;
 		    		int minim=0;
@@ -71,14 +73,16 @@ public class Asignare {
 		    			minim =z;
 		    		}
 		    		System.out.println("Minim:" +minim);
+//Minim este egal cu 2,deoarece x=2 si este cel mai mic
 }
 //TEMA 7
-	                int number = 6;{
-	                if (number %2 == 0) {
-	                	System.out.println("Numarul " + number + "este par");
-	                }
+	                int numar= 50;{
+	                if(numar %2 == 0) {
+		            System.out.println("Numarul par: " + numar);
+                    }
 	                else {
-	                		System.out.println("Numarul " + number + "este impar");
-	                }
+		            System.out.println("Numarul impar: " + numar);
+	         }
+	                //nu imi afiseaza nimic, aici probabil ceva nu este corect, nu imi dau seama exact ce
 }
 }

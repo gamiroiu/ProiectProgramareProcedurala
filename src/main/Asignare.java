@@ -74,9 +74,9 @@ public class Asignare {
 		    		}
 		    		System.out.println("Minim:" +minim);
 //Minim este egal cu 2,deoarece x=2 si este cel mai mic
-}
+
 //TEMA 7
-	                int numar= 50;{
+	                int numar= 55;{
 	                if(numar %2 == 0) {
 		            System.out.println("Numarul par: " + numar);
                     }
@@ -84,5 +84,6 @@ public class Asignare {
 		            System.out.println("Numarul impar: " + numar);
 	         }
 	                //nu imi afiseaza nimic, aici probabil ceva nu este corect, nu imi dau seama exact ce
+}
 }
 }

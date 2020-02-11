@@ -32,6 +32,7 @@ public class Capitol3 {
     		for (int i = 0; i < array.length; i++) {
     		if (array[i] < 0)
     		System.out.println("Pozitia valorii negative: " + i);
+    		}
 //TEMA 6
     		int[] N = new int[] {6, 86, 4, 90};
     		double[] M = new double[N.length];
@@ -40,7 +41,6 @@ public class Capitol3 {
     			M[c] = N[c] + K;
     		System.out.print("Numerele intregi sunt: ");
     		for(int c = 0; c < M.length; c++)
-    			System.out.print(M[c] + ", ");
-}
+    			System.out.print(M[c] + "; ");
 }
 }
